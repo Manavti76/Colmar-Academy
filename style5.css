@@ -1,0 +1,226 @@
+html {
+    font-size: 16px;font-family: Tahoma, sans-serif;
+}
+h1 {
+    font-size: 2.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+ul {
+    list-style: none;
+
+}
+p {
+    font-family: Lora, serif;
+}
+.main {
+    position: relative;top: 4rem;width: 100%;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    display: flex;flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.main-content {
+    width: 60%;margin: 2rem 1.5rem;
+}
+.main-image img, .main-image video {
+    width: 100%;
+}
+.main-heading {
+    width: 40%;padding-top: 1rem;
+}
+.third-block .flex-column, .banner .flex-column {
+    justify-content: center;
+}.third-block .flex-column {
+    width: 65%;
+}.small-image {
+    width: 35%;margin: 1rem;
+}.small-image img {
+    width: 100%;height: auto;
+}
+.third-block p {
+    margin: 0.5rem 0;
+}
+header {
+    height: 4rem;width: 100%;position: fixed;z-index: 5;background-color: white;
+}
+header div.flex {
+    flex-grow: 1;
+}
+
+header .desktop img {
+    height: 2rem;width: auto;margin-left: 1.5rem;
+}
+
+header span {
+    font-size: 1.25rem;
+}
+nav.desktop {
+    margin-right: 1rem;
+}
+.desktop ul li {
+    padding: 0 0.5rem;
+
+}
+
+.mobile {
+    display: none;
+
+    display: none
+}
+.banner {
+    background-color: lightgray;
+
+}
+.banner h1, .banner h4 {
+    padding-right: 2rem;padding-bottom: 1.5rem;
+
+}
+.banner h4 {
+    font-family: Lora, serif
+}
+.banner h5 {
+    background-color: dimgray;color: white;padding: 0.5rem 0;text-align: center;max-width: 80%;
+}
+.banner h5:hover {
+    background-color: gray;
+}@media only screen and (max-width: 872px) {
+    .banner {flex-direction: column;}.banner 
+    .main-content {width: 100%;margin: 0px 0px 2rem 0px;}
+    .banner .main-heading {width: auto;padding-top: 0px;margin: 0px 1rem;}
+    .banner h1 {padding-bottom: 2rem;}
+    .banner h5 {align-self: center;max-width: 100%;width: 100%;margin-bottom: 2rem}
+}
+
+@media only screen and (max-width: 620px) {
+    .mobile {display: block;width: 100%;}.mobile .flex {justify-content: space-around;}
+}
+
+
+.course {
+    background-color: lightgray;
+}
+.course h2 {
+    padding-top: 2rem;text-align: center;
+}
+.subjects {
+    padding: 0 3.5rem 1rem 3.5rem; flex-wrap: wrap; justify-content: center; max-width: 1168px; margin: 0 auto;
+}
+
+
+.subject {
+    max-width: 20rem; margin: 1rem; background-color: white;
+}
+.subject img {
+    max-width: 100%;height: auto;
+}
+.subject-info {
+    padding: 1rem;
+}
+
+
+.subject-info span {
+    padding: 0.5rem 0;display: block;
+}
+.subject-info p {
+    padding-bottom: 0.5rem;
+}
+    
+    @media only screen and 
+    
+    (max-width: 600px)
+    {
+
+.information .main-heading {
+    border-left: 1px solid lightgray;
+}
+    }
+.information .third-block{
+    border-bottom: 1px solid lightgray;
+}
+.mobile-image {
+    display: none;
+}
+.information h2 {
+    padding: 2rem 0 1.5rem 0;
+}
+.information h6 {
+    padding-top: 2rem;
+}
+.information span {
+    font-family: Lora, serif;color: blue;
+}
+ 
+
+
+
+.thesis {
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .thesis h2 {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  .main-content h3 {
+    padding: 1.5rem 0 0.5rem;
+  }
+  
+  @media only screen and (max-width: 872px) {
+    .thesis .third-info {
+      display: none;
+    }
+  
+    .thesis .main-content {
+      width: 100%;
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .thesis h3, .thesis p {
+      display: none;
+    }
+  }
+
+  video {
+   width: 100%;
+    height: auto;
+  }
+
+  footer {
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  footer h6 {
+    font-weight: normal;
+  }
+  
+  footer li {
+    padding: 0 0.5rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    footer li {
+      display: none;
+    }
+  
+    footer {
+      margin-bottom: 0;
+    }
+  }
+  
